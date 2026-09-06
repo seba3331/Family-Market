@@ -18,14 +18,14 @@ export const products = [
     name: 'Mug cerámica Café Aroma',
     price: 7990,
     category: 'Mugs',
-    image: 'https://images.unsplash.com/photo-1514228742587-6b15571fec09?w=400&h=400&fit=crop',
+    image: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=400&h=400&fit=crop',
   },
   {
     id: 4,
     name: 'Mug de viaje térmico',
     price: 9990,
     category: 'Mugs',
-    image: 'https://images.unsplash.com/photo-1514228742587-6b15571fdc0c?w=400&h=400&fit=crop',
+    image: 'https://images.unsplash.com/photo-1605539585404-a846f1193d19?w=400&h=400&fit=crop',
   },
   {
     id: 5,
