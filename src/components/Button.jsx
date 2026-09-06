@@ -1,9 +1,12 @@
-function Button({ variant, children }) {
-  const className =
-    variant === 'secondary' ? 'btn btn-secondary' : 'btn btn-primary'
+function Button({ variant, children, onClick }) {
+  let className = 'btn btn-primary'
+
+  if (variant === 'secondary') {
+    className = 'btn btn-secondary'
+  }
 
   return (
-    <button type="button" className={className}>
+    <button type="button" className={className} onClick={onClick}>
       {children}
     </button>
   )

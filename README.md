@@ -17,7 +17,8 @@ Cada componente está en su propio archivo dentro de `src/components/`.
 - **Header**: logo y nombre de la tienda.
 - **SearchBar**: caja de búsqueda. Recibe `value` y `onChange` por props (datos que le pasa el padre).
 - **ProductList**: recorre el array con `.map()` y usa `key={product.id}`.
-- **ProductCard**: recibe el producto por **props** y muestra imagen, categoría, nombre, precio y botón.
+- **ProductCard**: recibe el producto por **props** y muestra imagen, categoría, nombre, precio, cantidad y botón.
+- **QuantitySelector**: botones + y − para elegir cuántas unidades comprar.
 - **Button**: botón reutilizable. Cambia de aspecto según `variant` (`primary` o `secondary`).
 - **Footer**: datos de la tienda (nombre y ciudad).
 
