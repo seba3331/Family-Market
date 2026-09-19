@@ -4,23 +4,6 @@
   flex-direction: column;
 }
 
-.header {
-  background: #5c3d2e;
-  color: #fff;
-  text-align: center;
-  padding: 24px 16px;
-}
-
-.header h1 {
-  margin: 0;
-  font-size: 2rem;
-}
-
-.header-logo {
-  margin: 0 0 8px;
-  font-size: 2rem;
-}
-
 .main {
   flex: 1;
   width: 100%;
@@ -110,17 +93,6 @@
   justify-content: center;
   background: #fff;
   font-weight: 700;
-}
-
-.footer {
-  background: #3d2b1f;
-  color: #f6f1ea;
-  text-align: center;
-  padding: 24px 16px;
-}
-
-.footer p {
-  margin: 4px 0;
 }
 
 .btn {

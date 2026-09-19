@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './components/Header'
+import Header from './components/Header/Header'
 import SearchBar from './components/SearchBar'
 import ProductList from './components/ProductList'
-import Footer from './components/Footer'
+import Footer from './components/Footer/Footer'
 import { products } from './data/products'
 
 function App() {
