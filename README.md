@@ -12,7 +12,9 @@ La búsqueda se guarda con `useState` en `App`. Si escribes "mug" o "granos", la
 
 ## Componentes
 
-Cada componente está en su propio archivo dentro de `src/components/`.
+Cada componente vive en su propia carpeta dentro de `src/components/`, con su archivo `.jsx` y su archivo `.css` al lado. Así, si otra persona trabaja el buscador, solo abre esa carpeta y no se mezcla con el resto.
+
+Ejemplo: `src/components/Header/Header.jsx` arma el encabezado y `src/components/Header/Header.css` le pone el color.
 
 - **Header**: logo y nombre de la tienda.
 - **SearchBar**: caja de búsqueda. Recibe `value` y `onChange` por props (datos que le pasa el padre).
