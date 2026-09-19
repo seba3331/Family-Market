@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import Button from './Button/Button'
-import QuantitySelector from './QuantitySelector/QuantitySelector'
+import Button from '../Button/Button'
+import QuantitySelector from '../QuantitySelector/QuantitySelector'
+import './ProductCard.css'
 
 function ProductCard({ product }) {
   const [quantity, setQuantity] = useState(1)
