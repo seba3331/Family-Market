@@ -1,3 +1,5 @@
+import './Button.css'
+
 function Button({ variant, children, onClick }) {
   let className = 'btn btn-primary'
 

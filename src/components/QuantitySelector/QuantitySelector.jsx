@@ -1,3 +1,5 @@
+import './QuantitySelector.css'
+
 function QuantitySelector({ value, onMinus, onPlus }) {
   return (
     <div className="quantity-selector">

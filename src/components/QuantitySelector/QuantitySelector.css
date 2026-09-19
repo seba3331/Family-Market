@@ -1,0 +1,27 @@
+.quantity-selector {
+  display: inline-flex;
+  align-items: stretch;
+  margin: 8px auto;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #1a1a1a;
+}
+
+.quantity-btn {
+  width: 36px;
+  background: #1a1a1a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.quantity-value {
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  font-weight: 700;
+}
