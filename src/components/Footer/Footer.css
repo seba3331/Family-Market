@@ -1,10 +1,15 @@
 .footer {
-  background: #3d2b1f;
-  color: #f6f1ea;
+  background: #145c38;
+  color: #e5f3eb;
   text-align: center;
-  padding: 24px 16px;
+  padding: 28px 16px;
 }
 
 .footer p {
-  margin: 4px 0;
+  margin: 6px 0;
+}
+
+.footer p:first-child {
+  font-size: 1.05rem;
+  font-weight: 700;
 }

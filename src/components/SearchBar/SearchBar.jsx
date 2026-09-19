@@ -5,7 +5,7 @@ function SearchBar({ value, onChange }) {
     <input
       className="search-bar"
       type="text"
-      placeholder="Buscar por nombre o categoría"
+      placeholder="Buscar por nombre"
       value={value}
       onChange={onChange}
     />

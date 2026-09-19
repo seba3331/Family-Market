@@ -1,0 +1,10 @@
+.error-message {
+  max-width: 480px;
+  margin: 24px auto 0;
+  padding: 16px 20px;
+  background: #fff4f0;
+  border: 1px solid #c45c3d;
+  border-radius: 12px;
+  color: #7a2e1c;
+  text-align: center;
+}

@@ -2,19 +2,23 @@
   display: inline-flex;
   align-items: stretch;
   margin: 8px auto;
-  border-radius: 8px;
+  border-radius: 999px;
   overflow: hidden;
-  border: 1px solid #1a1a1a;
+  border: 1px solid #1f7a4d;
 }
 
 .quantity-btn {
   width: 36px;
-  background: #1a1a1a;
+  background: #1f7a4d;
   color: #fff;
   border: none;
   cursor: pointer;
   font-size: 1.2rem;
   line-height: 1;
+}
+
+.quantity-btn:hover {
+  background: #145c38;
 }
 
 .quantity-value {

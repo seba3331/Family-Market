@@ -3,7 +3,7 @@ import Button from '../Button/Button'
 import QuantitySelector from '../QuantitySelector/QuantitySelector'
 import './ProductCard.css'
 
-function ProductCard({ product }) {
+function ProductCard({ product, onAddToCart }) {
   const [quantity, setQuantity] = useState(1)
 
   function handleMinus() {
@@ -17,7 +17,8 @@ function ProductCard({ product }) {
   }
 
   function handleAddToCart() {
-    alert('Próximamente habilitaremos esta sección')
+    onAddToCart(product, quantity)
+    setQuantity(1)
   }
 
   return (
@@ -25,7 +26,7 @@ function ProductCard({ product }) {
       <img src={product.image} alt={product.name} />
       <p className="product-category">{product.category}</p>
       <h2>{product.name}</h2>
-      <p className="product-price">${product.price.toLocaleString('es-CL')}</p>
+      <p className="product-price">${product.price.toFixed(2)}</p>
       <QuantitySelector
         value={quantity}
         onMinus={handleMinus}
