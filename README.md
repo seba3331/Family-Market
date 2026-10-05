@@ -58,8 +58,8 @@ La tienda completa: encabezado, buscador, grilla de productos y pie de página.
 
 ![Vista general de Family Market](docs/vista-general.png)
 
-### Búsqueda o carga
+### Búsqueda
 
-Ejemplo de la búsqueda funcionando, o del Loader mientras llegan los productos.
+Al escribir `pepper` en el buscador, solo quedan los productos que tienen esa palabra en el nombre.
 
-![Búsqueda o carga de productos](docs/busqueda.png)
+![Búsqueda de productos por nombre](docs/busqueda.png)
